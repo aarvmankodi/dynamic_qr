@@ -13,11 +13,11 @@
     },
     "qr4": {
         "title": "QR 4 Page",
-        "content": "This is dynamically updated content for QR 3."
+        "content": "This is dynamically updated content for QR 4."
     },
     "qr5": {
         "title": "QR 5 Page",
-        "content": "This is dynamically updated content for QR 3."
+        "content": "This is dynamically updated content for QR 5."
     }
 
 }
