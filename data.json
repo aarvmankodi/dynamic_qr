@@ -10,5 +10,14 @@
     "qr3": {
         "title": "QR 3 Page",
         "content": "This is dynamically updated content for QR 3."
+    },
+    "qr4": {
+        "title": "QR 4 Page",
+        "content": "This is dynamically updated content for QR 3."
+    },
+    "qr5": {
+        "title": "QR 5 Page",
+        "content": "This is dynamically updated content for QR 3."
     }
+
 }
