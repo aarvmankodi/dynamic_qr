@@ -1,10 +1,17 @@
 {
     
- {
-  "qr1": {
-    "content": "[\n  {\"action\": \"move\", \"direction\": \"forward\", \"time\": 500},\n  {\"action\": \"stop\", \"time\": 500},\n  {\"action\": \"move\", \"direction\": \"right\", \"time\": 700},\n  {\"action\": \"stop\", \"time\": 500},\n  {\"action\": \"move\", \"direction\": \"forward\", \"time\": 500},\n  {\"action\": \"stop\", \"time\": 500},\n  {\"action\": \"move\", \"direction\": \"right\", \"time\": 700},\n  {\"action\": \"move\", \"direction\": \"forward\", \"time\": 500}\n]"
-  }
-}
+"qr1": {
+    "content": [
+      { "action": "move", "direction": "forward", "time": 500 },
+      { "action": "stop", "time": 500 },
+      { "action": "move", "direction": "right", "time": 700 },
+      { "action": "stop", "time": 500 },
+      { "action": "move", "direction": "forward", "time": 500 },
+      { "action": "stop", "time": 500 },
+      { "action": "move", "direction": "right", "time": 700 },
+      { "action": "move", "direction": "forward", "time": 500 }
+    ]
+  },
 ,
 
     "qr2": {
