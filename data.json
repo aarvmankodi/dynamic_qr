@@ -1,8 +1,18 @@
 {
-    "qr1": {
-        
-        "content": "This is dynamically updated content for QR 1."
-    },
+    
+  "qr1": {
+    "content": [
+      {"action": "move", "direction": "forward", "time": 500},
+      {"action": "stop", "time": 500},
+      {"action": "move", "direction": "right", "time": 700},
+      {"action": "stop", "time": 500},
+      {"action": "move", "direction": "forward", "time": 500},
+      {"action": "stop", "time": 500},
+      {"action": "move", "direction": "right", "time": 700},
+      {"action": "move", "direction": "forward", "time": 500}
+    ]
+  },
+
     "qr2": {
         
         "content": "This is dynamically updated content for QR 2."
