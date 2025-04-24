@@ -1,20 +1,17 @@
- document.addEventListener("DOMContentLoaded", async () => {
-      const page = window.location.pathname.split("/").pop().replace(".html", "");
-      try {
+document.addEventListener("DOMContentLoaded", async () => {
+    const page = window.location.pathname.split("/").pop().replace(".html", "");
+    try {
         const response = await fetch("data.json");
         const data = await response.json();
-        const contentElement = document.getElementById("content");
-
         if (data[page]) {
-          const content = data[page].content;
-          contentElement.innerText = typeof content === "string"
-            ? content
-            : JSON.stringify(content, null, 2); // pretty print array
+            // document.getElementById("title").innerText = data[page].title;
+            document.getElementById("content").innerText = data[page].content;
         } else {
-          contentElement.innerText = "This QR code page does not exist.";
+            // document.getElementById("title").innerText = "Page Not Found";
+            document.getElementById("content").innerText = "This QR code page does not exist.";
         }
-      } catch (error) {
+    } catch (error) {
+        // document.getElementById("title").innerText = "Error Loading Data";
         document.getElementById("content").innerText = "There was an issue fetching the content.";
-        console.error("Error loading data:", error);
-      }
-    });
+    }
+});
